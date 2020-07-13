@@ -1,12 +1,12 @@
 def my_each(array)
   if block_given?
-  new_array = []
+  #new_array = []
   i = 0
   while array.length > i
-  i = i+1
+   i = i+1
   yeild(array[])
   end
-  new_array
+  array
   end
 end
 
