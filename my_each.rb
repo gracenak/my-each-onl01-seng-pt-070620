@@ -7,7 +7,7 @@ def my_each(array) # put argument(s) here
   yeild(array[i])
 end
      
-  array# code here
+  array # code here
 end
 
 collection = [1, 2, 3, 4]
