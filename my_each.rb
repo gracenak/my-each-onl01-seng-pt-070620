@@ -23,4 +23,15 @@ def my_each(collection) do |i|
   i = i+1
   yield(collection[])
   end
+  
+end
+
+def my_each(array)
+  new_array = []
+  i = 0
+  while array.length > i
+  i = i+1
+  yeild(array[])
+  end
+new_array
 end
