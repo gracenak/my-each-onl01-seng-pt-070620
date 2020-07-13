@@ -6,7 +6,7 @@ def my_each(array)
    i = i+1
   yield(array[i])
   end
-  new_array
+  array
   end
 end
 
