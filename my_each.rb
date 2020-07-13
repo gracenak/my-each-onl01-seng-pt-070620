@@ -6,9 +6,11 @@ def my_each(array) # put argument(s) here
   while i < array.length
   i = i+1
   yeild(array[i])
-end
+  end
      
   new_array # code here
+  end
+  
 end
 
 collection = [1, 2, 3, 4]
