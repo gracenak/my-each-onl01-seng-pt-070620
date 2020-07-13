@@ -1,5 +1,6 @@
 def my_each(array) # put argument(s) here
   if block_given?
+  new_array = []
   i = 0
   
   while i < array.length
@@ -7,7 +8,7 @@ def my_each(array) # put argument(s) here
   yeild(array[i])
 end
      
-  array # code here
+  new_array # code here
 end
 
 collection = [1, 2, 3, 4]
