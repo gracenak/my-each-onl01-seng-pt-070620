@@ -7,6 +7,7 @@ def my_each(array)
   yeild(array[])
   end
   new_array
+  end
 end
 
 
